@@ -404,8 +404,7 @@ input[type=submit] {
     border-radius: 7px;
     background-color: rgba(234, 235, 237, 0.918);;
     position: absolute;
-    bottom: 10px;
-    left: 20vw;
+    top: -150px;
     opacity: 0;
     pointer-events: none;
     padding-top: 20px;
@@ -546,7 +545,16 @@ body {
 #prods {
     width: 30%;
     height: 200px;
+    overflow: visible;
 }
+#det-p {
+    width: 30vw;
+}
+
+#secA {
+    overflow: visible;
+}
+
 
 }
 select {
